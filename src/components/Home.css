@@ -1,0 +1,86 @@
+.home-page {
+  padding: 20px;
+  background-color: #1e1e2f;
+  color: white;
+  min-height: 100vh;
+}
+
+section {
+  margin-bottom: 40px;
+  max-width: 1200px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.category {
+  margin: 20px auto;
+  width: 60%;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #22254b;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.category:hover {
+  transform: scale(1.03); /* slight zoom on hoover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+
+.algorithm-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.algorithm-buttons button {
+  background-color: #407dce;
+  color: white;
+  padding: 12px 25px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-clor 0.3s ease, transform 0.2s ease;
+}
+
+.algorithm-buttons button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+.examples {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.example a {
+  color: #d3dae4;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+.example a:hover {
+  color: #45a049;
+  text-decoration: underline;
+}
+
+/* Animation for dropdown */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

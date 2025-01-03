@@ -1,0 +1,55 @@
+.bubble-sort-container {
+  text-align: center;
+  margin: 20px auto;
+  width: 80%;
+}
+
+.array-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 200px;
+  margin: 20px 0;
+}
+
+.array-bar {
+  width: 30px;
+  margin: 0 5px;
+  background-color: #4caf50;
+  transition: all 0.2s;
+}
+
+.controls button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  background-color: #0056b3;
+}
+
+.speed-control {
+  margin: 20px;
+}
+
+.metrics {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.explanation {
+  margin: 20px;
+  font-size: 16px;
+}
+
+.code-snippet pre {
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: left;
+  overflow-x: auto;
+}
+
