@@ -8,6 +8,11 @@ import SelectionSort from "./components/SelectionSort.jsx";
 import InsertionSort from "./components/InsertionSort.jsx";
 import MergeSort from "./components/MergeSort.jsx";
 import QuickSort from "./components/QuickSort.jsx";
+import LinearSearch from "./components/LinearSearch.jsx";
+import BinarySearch from "./components/BinarySearch.jsx";
+import DepthFirstSearch from "./components/DepthFirstSearch.jsx";
+import BreadthFirstSearch from "./components/BreadthFirstSearch.jsx";
+import Dijkstra from "./components/Dijkstra.jsx";
 import './App.css';
 
 function App() {
@@ -23,6 +28,11 @@ function App() {
           <Route path="/insertion-sort" element={<InsertionSort />} />
           <Route path="/merge-sort" element={<MergeSort />} />
           <Route path="/quick-sort" element={<QuickSort />} />
+          <Route path="/linear-search" element={<LinearSearch />} />
+          <Route path="/binary-search" element={<BinarySearch />} />
+          <Route path="/dfs" element={<DepthFirstSearch />} />
+          <Route path="/bfs" element={<BreadthFirstSearch />} />
+          <Route path="/dijkstra" element={<Dijkstra />} />
         </Routes>
       </CSSTransition>
     </TransitionGroup>
