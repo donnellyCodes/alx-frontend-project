@@ -1,0 +1,118 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Eleven+Twenty:wght@400;700&family=Barlow:wght@300;400;600&display=swap');
+
+/* General Page Styling */
+body {
+  margin: 0;
+  font-family: 'Barlow', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.linear-search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Heading Styling */
+h2 {
+  font-family: 'Eleven Twenty', sans-serif;
+  font-size: 2rem;
+  color: #4a90e2;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Layout Styling */
+.array-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 15px;
+  margin-bottom: 20px;
+  height: 250px;
+}
+
+.array-bar {
+  background-color: #4a90e2;
+  width: 20px; /* Reduced width */
+  height: 450px; /* Reduced height */
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.array-bar.highlight {
+  background-color: #e94e77;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 400px;
+}
+
+button {
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.speed-control {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.custom-input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.metrics {
+  margin-bottom: 20px;
+  font-size: 1rem;
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Explanation and Code Snippet Styling */
+.explanation h3,
+.code-snippet h3 {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #4a90e2;
+}
+
+pre {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+
+

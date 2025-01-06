@@ -21,7 +21,7 @@ function Welcome() {
     >
         <div className="welcome">
             <h1>Welcome to SortVitz</h1>
-            <p>Visualize sorting algorithms efficiently</p>
+            <p>A platform to help you Visualize Algorithms</p>
             <button onClick={handleExploreClick}>Explore</button>
           </div>
     </CSSTransition>

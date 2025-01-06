@@ -44,7 +44,6 @@ function Home() {
               <a href="/dfs">Depth First Search</a>
               <a href="/bfs">Breadth First Search</a>
               <a href="/dijkstra">Dijkstra's Algorithm</a>
-              <a href="/a-star">A* Search</a>
             </div>
           )}
         </div>

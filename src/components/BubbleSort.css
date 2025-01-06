@@ -1,55 +1,116 @@
-.bubble-sort-container {
-  text-align: center;
-  margin: 20px auto;
-  width: 80%;
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Eleven+Twenty:wght@400;700&family=Barlow:wght@300;400;600&display=swap');
+
+/* General Page Styling */
+body {
+  margin: 0;
+  font-family: 'Barlow', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
 }
 
+.bubble-sort-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Heading Styling */
+h2 {
+  font-family: 'Eleven Twenty', sans-serif;
+  font-size: 2rem;
+  color: #4a90e2;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Layout Styling */
 .array-container {
   display: flex;
-  align-items: flex-end;
   justify-content: center;
-  height: 200px;
-  margin: 20px 0;
+  align-items: flex-end;
+  gap: 15px;
+  margin-bottom: 20px;
+  height: 250px;
 }
 
 .array-bar {
-  width: 30px;
-  margin: 0 5px;
-  background-color: #4caf50;
-  transition: all 0.2s;
+  background-color: #4a90e2;
+  width: 20px; /* Reduced width */
+  height: 400px; /* Reduced height */
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
 }
 
-.controls button {
-  margin: 10px;
-  padding: 10px 20px;
-  background-color: #007bff;
+.array-bar.highlight {
+  background-color: #e94e77;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 400px;
+}
+
+button {
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #4a90e2;
   color: white;
   border: none;
+  border-radius: 5px;
   cursor: pointer;
 }
 
-.controls button:hover {
-  background-color: #0056b3;
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
 }
 
 .speed-control {
-  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.custom-input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 400px;
 }
 
 .metrics {
-  font-size: 18px;
-  margin: 20px 0;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
 }
 
-.explanation {
-  margin: 20px;
-  font-size: 16px;
+/* Explanation and Code Snippet Styling */
+.explanation h3,
+.code-snippet h3 {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #4a90e2;
 }
 
-.code-snippet pre {
+pre {
   background-color: #f4f4f4;
-  padding: 20px;
-  text-align: left;
+  padding: 10px;
+  border-radius: 5px;
   overflow-x: auto;
 }
 
